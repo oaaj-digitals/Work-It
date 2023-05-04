@@ -202,3 +202,62 @@ body {
 	display: inline-block;
 	height: 100%;
 }
+
+/* Main Styles */
+
+#main {
+	width: 100%;
+}
+
+/* Features Styles */
+.section.features {
+	height: 140vh;
+	width: 100%;
+	margin-top: -40vh;
+	z-index: -10;
+
+	clip-path: ellipse(130% 80% at 50% 20%);
+	background-color: var(--color-offwhite);
+	/* background-color: red; */
+}
+
+.cards-container {
+	width: 100%;
+	padding: 0 8vw;
+
+	position: absolute;
+	top: 50%;
+
+	display: flex;
+	gap: 3vw;
+}
+
+.card {
+	flex-basis: calc(100vw / 3);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+
+	text-align: center;
+}
+
+.card > .num {
+	font-family: "Fraunces";
+	font-size: 2.4rem;
+	color: var(--primary-color);
+
+	width: 4rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	border: 1px solid var(--accent-color);
+	margin-bottom: 2rem;
+}
+
+.card-heading,
+.card-description {
+	color: var(--primary-color);
+}
