@@ -261,3 +261,57 @@ body {
 .card-description {
 	color: var(--primary-color);
 }
+
+/* Founders Info Styles */
+.section.founder-info {
+	width: 100%;
+	height: 110vh;
+	padding: 0 10vw;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section.founder-info > .container {
+	width: 100%;
+	height: 80%;
+
+	display: flex;
+	align-items: center;
+}
+
+.founder-image_div {
+	height: 80%;
+}
+
+.founder-image {
+	display: inline-block;
+	height: 100%;
+}
+
+.apply_div {
+	width: 65%;
+	padding: 5rem 4rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 3rem;
+
+	color: var(--color-offwhite);
+	background-color: var(--primary-color);
+
+	position: absolute;
+	right: 0;
+	top: 40%;
+
+	overflow: hidden;
+}
+
+#bg-spiral-3 {
+	position: absolute;
+	bottom: -20%;
+	right: 10%;
+}
