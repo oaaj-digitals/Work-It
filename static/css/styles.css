@@ -315,3 +315,30 @@ body {
 	bottom: -20%;
 	right: 10%;
 }
+
+/* Footer Styles */
+#footer {
+	padding: 10vh 0 15vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4vh;
+}
+
+.footer-logo_div {
+	width: 10rem;
+}
+
+.footer-logo {
+	width: 100%;
+}
+
+.social_div {
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+}
+
+svg:hover > path {
+	fill: var(--primary-color) !important;
+}
