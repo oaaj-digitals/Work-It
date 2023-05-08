@@ -342,3 +342,104 @@ body {
 svg:hover > path {
 	fill: var(--primary-color) !important;
 }
+
+/* Responsive Design */
+
+/* ---- Tablet View */
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 50%;
+	}
+
+	#bg-spiral-1,
+	#bg-spiral-2,
+	#bg-spiral-3 {
+		scale: 0.8;
+	}
+
+	#bg-spiral-1 {
+		position: absolute;
+		left: -20vw;
+		top: 10vh;
+	}
+
+	#bg-spiral-2 {
+		position: absolute;
+		right: -10vw;
+		bottom: 35vh;
+	}
+
+	.header-center-div {
+		width: 70%;
+	}
+
+	.hero-image {
+		height: auto;
+		width: 100%;
+	}
+
+	.hero-image_div {
+		height: auto;
+		width: 65%;
+		bottom: 5vh;
+	}
+
+	.section.features {
+		padding-top: 35vh;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.cards-container {
+		height: max-content;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		position: static;
+	}
+
+	.card {
+		flex-basis: 80%;
+		display: grid;
+		grid-template-columns: 6rem 1fr;
+		grid-template-rows: 6rem 1fr;
+
+		gap: 1.5rem;
+	}
+
+	.card > .num {
+		grid-row: 1/3;
+	}
+
+	.card-heading,
+	.card-description {
+		width: 100%;
+		height: max-content;
+
+		text-align: left;
+	}
+
+	.section.founder-info {
+		padding: 0 3vw;
+	}
+
+	.founder-image_div {
+		height: auto;
+		width: 40%;
+	}
+
+	.founder-image {
+		height: auto;
+		width: 100%;
+	}
+
+	#footer {
+		padding: 6rem 0 10rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 4vh;
+	}
+}
