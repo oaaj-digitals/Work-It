@@ -443,3 +443,126 @@ svg:hover > path {
 		gap: 4vh;
 	}
 }
+
+/* ---- Mobile View */
+@media screen and (max-width: 425px) {
+	:root {
+		--default-font-size: 2rem;
+	}
+
+	.primary-heading {
+		font-size: 7rem;
+		line-height: 7rem;
+	}
+
+	.secondary-heading {
+		font-size: 5.6rem;
+		line-height: 6.4rem;
+	}
+
+	.tertiary-heading {
+		font-size: 3.2rem;
+		line-height: 4rem;
+	}
+
+	.primary-btn {
+		padding: 2rem 3rem;
+	}
+
+	.primary-btn:hover {
+		padding: calc(2rem - 2px) calc(3rem - 2px);
+		border: 2px solid var(--secondary-color);
+	}
+
+	html {
+		font-size: 37.5%;
+	}
+
+	#header {
+		height: 550px;
+	}
+
+	.header-bg {
+		clip-path: ellipse(170% 80% at 50% 0%);
+	}
+
+	#bg-spiral-1,
+	#bg-spiral-2,
+	#bg-spiral-3 {
+		display: none;
+	}
+
+	.header-center-div {
+		top: 40%;
+		width: 95%;
+	}
+
+	.header-center-div .primary-heading {
+		margin-bottom: 20px;
+	}
+
+	.hero-image_div {
+		width: 85%;
+	}
+
+	.section.features {
+		height: max-content;
+		margin-top: -150px;
+		padding-top: 170px;
+		padding-bottom: 90px;
+		width: 100%;
+
+		clip-path: ellipse(170% 80% at 50% 20%);
+	}
+
+	.cards-container {
+		gap: 10rem;
+	}
+
+	.card {
+		flex-basis: 80%;
+		display: flex;
+		justify-content: center;
+		gap: 2rem;
+	}
+	.card > .num {
+		font-size: 3rem;
+
+		width: 6rem;
+		height: 6rem;
+	}
+
+	.card-heading,
+	.card-description {
+		text-align: center;
+	}
+
+	.section.founder-info {
+		height: max-content;
+		padding: 10rem 2rem 5rem;
+
+		display: block;
+	}
+
+	.section.founder-info > .container {
+		width: 100%;
+		height: 100%;
+
+		display: flex;
+		flex-direction: column;
+	}
+
+	.founder-image_div {
+		width: 70%;
+		z-index: -10;
+	}
+
+	.apply_div {
+		margin-top: -12rem;
+		width: 100%;
+		position: static;
+		align-items: center;
+
+		text-align: center;
+	}
+}
