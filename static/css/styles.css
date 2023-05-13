@@ -456,8 +456,8 @@ svg:hover > path {
 	}
 
 	.secondary-heading {
-		font-size: 5.6rem;
-		line-height: 6.4rem;
+		font-size: 5rem;
+		line-height: 5.8rem;
 	}
 
 	.tertiary-heading {
@@ -498,11 +498,12 @@ svg:hover > path {
 	}
 
 	.header-center-div .primary-heading {
-		margin-bottom: 20px;
+		margin-bottom: 6px;
 	}
 
 	.hero-image_div {
 		width: 85%;
+		bottom: 4%;
 	}
 
 	.section.features {
