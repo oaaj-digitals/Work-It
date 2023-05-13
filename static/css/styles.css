@@ -456,8 +456,8 @@ svg:hover > path {
 	}
 
 	.secondary-heading {
-		font-size: 5rem;
-		line-height: 5.8rem;
+		font-size: 4.6rem;
+		line-height: 5.4rem;
 	}
 
 	.tertiary-heading {
@@ -559,7 +559,7 @@ svg:hover > path {
 	}
 
 	.apply_div {
-		margin-top: -12rem;
+		margin-top: -15vw;
 		width: 100%;
 		position: static;
 		align-items: center;
